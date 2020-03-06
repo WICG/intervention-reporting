@@ -1,6 +1,6 @@
 <h1>Intervention Reporting</h1>
 <pre class="metadata">
-Status: ED
+Status: w3c/CG-DRAFT
 ED: https://wicg.github.io/intervention-reporting/
 Shortname: intervention-reporting
 Group: WICG
