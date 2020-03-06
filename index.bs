@@ -26,16 +26,11 @@ Markup Shorthands: css off, markdown on
     Example, Inc. wants to understand how often users of its web site are
     running into browser interventions, in order to better devote its developer
     resources to improving site performance. It can do this by delivering the
-    following header to define a reporting endpoint, and direct intervention
-    reports to it:
+    following header to define a default reporting endpoint, which will direct
+    intervention reports there:
 
     <pre>
-      Report-To: { "group": "default",
-                   "max_age": 10886400,
-                   "endpoints": [
-                     { "url": "https://example.com/reports", "priority": 1 },
-                     { "url": "https://backup.com/reports", "priority": 2 }
-                   ] }
+      Reporting-Endpoints: default="https://example.com/reports"
     </pre>
 
 </section>
